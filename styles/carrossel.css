@@ -103,7 +103,7 @@
     color: #D9D9D9;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 460px){
     .grid_carrossel_ss::-webkit-scrollbar {
         width: 1px;
         height: 6px;

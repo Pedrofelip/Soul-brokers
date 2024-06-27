@@ -101,7 +101,7 @@
     color: #96A0B5;
 }
 
-@media screen and (max-width: 415px){
+@media screen and (max-width: 460px){
     .grid_arrow_fours{
         width: 80px;
         height: 100%;
