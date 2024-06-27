@@ -120,7 +120,8 @@
         position: absolute;
         bottom: 0;
         margin-bottom: 25px;
-        margin-left: 820px;
+        margin-left: 0;
+        display: none;
     }
     
     .arrow-left,
