@@ -11,10 +11,13 @@
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/carrossel.css">
     <link rel="stylesheet" href="./styles/carrossel_fours.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
 
-    
+    <script src="./assets/sidebar.js" defer></script>
     <script src="./assets/carrossel.js" defer></script>
     <script src="./assets/carrossel_fours.js" defer></script>
+    <script src="https://kit.fontawesome.com/842cb4325d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@300,400,500&f[]=clash-display@500&display=swap" rel="stylesheet">
 </head>
@@ -32,6 +35,22 @@
                 </ul>
             </nav>
             <a href="#" class="button_cabecalho">Entre em Contato</a>
+            <div class="menu_lateral">
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" id="btnfechar" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Novidades</a></li>
+                        <li><a href="#">Localização</a></li>
+                    </ul>
+                  </div>
+                  
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i></i></button>
+                  </div>
+            </div>
         </div>
     </header>
     <main class="conteudo_main">
@@ -215,7 +234,7 @@
         </section>
     </main>
     <footer class="footer">
-        <section class="footer_section">
+        <section class="footer_section footer_section_mobile">
             <div class="grid_h1_ft">
                 <h1 class="h1_ft">Venha tomar um café conosco!</h1>
             </div>
@@ -226,7 +245,7 @@
             </div>
         </section>
         <section class="footer_section">
-            <article class="card_footer">
+            <article class="card_footer card_footer_mobile">
                 <img src="./imgs/logo_soul_preta.svg" alt="logo da Soul brokers preto e branco">
                 <p class="p_footer">Nosso objetivo é atender às necessidades dos clientes com produtos de qualidade. Contamos com um time experiente para oferecer Proteção sob Medida.</p>
             </article>
@@ -238,10 +257,10 @@
                 <h3 class="h3_footer">Empresa</h3>
                 <nav>
                     <ul>
-                        <li><a href="#" class="p_footer">Sobre nós</a></li>
-                        <li><a href="#" class="p_footer">Serviços</a></li>
-                        <li><a href="#" class="p_footer">Novidades</a></li>
-                        <li><a href="#" class="p_footer">Localização</a></li>
+                        <li><a href="#" class="a_footer">Sobre nós</a></li>
+                        <li><a href="#" class="a_footer">Serviços</a></li>
+                        <li><a href="#" class="a_footer">Novidades</a></li>
+                        <li><a href="#" class="a_footer">Localização</a></li>
                     </ul>
                 </nav>
             </div>
@@ -249,10 +268,10 @@
                 <h3 class="h3_footer">Ajuda</h3>
                 <nav>
                     <ul>
-                        <li><a href="#" class="p_footer">Politicas de Uso</a></li>
-                        <li><a href="#" class="p_footer">Privacidade</a></li>
-                        <li><a href="#" class="p_footer">Termos de uso</a></li>
-                        <li><a href="#" class="p_footer">FAQs</a></li>
+                        <li><a href="#" class="a_footer">Politicas de Uso</a></li>
+                        <li><a href="#" class="a_footer">Privacidade</a></li>
+                        <li><a href="#" class="a_footer">Termos de uso</a></li>
+                        <li><a href="#" class="a_footer">FAQs</a></li>
                     </ul>
                 </nav>
             </div>

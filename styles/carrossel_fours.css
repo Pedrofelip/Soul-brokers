@@ -100,3 +100,50 @@
     line-height: 20px;
     color: #96A0B5;
 }
+
+@media screen and (max-width: 415px){
+    .grid_arrow_fours{
+        width: 80px;
+        height: 100%;
+        display: none;
+    }
+    
+    .arrow_left_fours,
+    .arrow_right_fours{
+        height: 35px;
+        width: 35px;
+    }
+    
+    .grid_carrossel_fours{
+        width: 95%;
+    }
+    
+    .carrossel_fours{
+        gap: 10px;
+    }
+    
+    .item_fours{
+       width: 60%;
+       height: 33%;
+    }
+    
+    .grid_img_card_fours{
+        width: 95%;
+        height: 48%;
+    }
+    
+    .grid_txt_card_fours{
+        width: 95%;
+        height: 45%;
+    }
+    
+    .grid_txt_card_fours > h3{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .grid_txt_card_fours > p{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
