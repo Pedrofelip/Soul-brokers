@@ -59,7 +59,7 @@
    opacity: 0.6;
 }
 
-.current-item_fours{
+.current_item_fours{
     opacity: 1;
 }
 
@@ -104,8 +104,7 @@
 @media screen and (max-width: 460px){
     .grid_arrow_fours{
         width: 80px;
-        height: 100%;
-        display: none;
+        height: 10%;
     }
     
     .arrow_left_fours,
@@ -116,15 +115,17 @@
     
     .grid_carrossel_fours{
         width: 95%;
+        height: 50%;
     }
     
     .carrossel_fours{
         gap: 10px;
+        height: 100%;
     }
     
     .item_fours{
        width: 60%;
-       height: 33%;
+       height: 100%;
     }
     
     .grid_img_card_fours{

@@ -17,7 +17,7 @@ controls.forEach(control => {
             currentItem = 0;
         }
 
-        if (currentItem <0 ) {
+        if (currentItem < 0 ) {
             currentItem = maxItens - 1;
         }
 
@@ -25,7 +25,8 @@ controls.forEach(control => {
 
         itens[currentItem].scrollIntoView({
             inline: "center",
-            behavior: "smooth"
+            behavior: "smooth",
+            block: "nearest"
         });
 
         itens[currentItem].classList.add("current-item");
